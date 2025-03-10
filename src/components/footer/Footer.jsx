@@ -9,7 +9,7 @@ function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 animate-fadeInUp">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Logo/>
+                        <Logo className="animate-fadeInUp"/>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
@@ -53,25 +53,25 @@ function Footer() {
                     </span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaLinkedin className="w-5 h-5"/>
+                            <FaLinkedin className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaGithub className="w-5 h-5"/>
+                            <FaGithub className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaTwitter className="w-5 h-5"/>
+                            <FaTwitter className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaDiscord className="w-5 h-5"/>
+                            <FaDiscord className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaInstagram className="w-5 h-5"/>
+                            <FaInstagram className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaGlobe className="w-5 h-5"/>
+                            <FaGlobe className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                         <Link to="#" className="text-slate-400 hover:text-red-500 ms-5">
-                            <FaYoutube className="w-5 h-5"/>
+                            <FaYoutube className="w-5 h-5 animate-fadeInUp"/>
                         </Link>
                     </div>
                 </div>

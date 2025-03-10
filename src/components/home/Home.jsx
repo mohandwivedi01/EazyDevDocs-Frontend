@@ -88,10 +88,10 @@ function Home() {
 
                 <div className="max-w-4xl mx-auto text-center mt-32">
                     <div>
-                        <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6">Fuel Your Passion for Learning with Our Diverse Blog Content</h2>
-                        <p className="text-gray-400">Embark on a journey of continuous learning and self-improvement. Our blog offers a wealth of resources to help you expand your knowledge, develop new skills, and stay ahead of the curve. Explore in-depth articles, expert interviews, and practical guides on a variety of subjects, all designed to empower you with valuable insights and information.</p>
+                        <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6 animate-fadeInUp">Fuel Your Passion for Learning with Our Diverse Blog Content</h2>
+                        <p className="text-gray-400 animate-fadeInUp">Embark on a journey of continuous learning and self-improvement. Our blog offers a wealth of resources to help you expand your knowledge, develop new skills, and stay ahead of the curve. Explore in-depth articles, expert interviews, and practical guides on a variety of subjects, all designed to empower you with valuable insights and information.</p>
                     </div>
-                    <button onClick={() => navigate("/all-blogs")} className='px-6 py-3.5 border-t border-b-2 border-red-600 shadow-md shadow-red-600 hover:bg-red-600 font-semibold rounded-lg mt-10'>Get
+                    <button onClick={() => navigate("/all-blogs")} className='px-6 py-3.5 border-t border-b-2 border-red-600 shadow-md shadow-red-600 hover:bg-red-600 font-semibold rounded-lg mt-10 animate-fadeInUp'>Get
                         started
                         today</button>
                 </div>
@@ -99,13 +99,13 @@ function Home() {
                 <div className="mt-32 shadow-xl shadow-blue-500/50 rounded-lg px-4 py-12">
                     <div className="grid md:grid-cols-2 justify-center items-center gap-12 max-w-7xl mx-auto">
                         <div>
-                            <img src="https://wepik.com/api/image/local/155932983/9e5d8c4a-c5b2-46e7-b480-f6493600e37b?expires=1741320000&thumb=0&transparent=0&signature=28682039de62888a1ad140498fdd7a3be8b22d383e7305690b39a4ce88ddd48a" alt="Premium Benefits" className="w-full mx-auto" />
+                            <img src="https://res.cloudinary.com/djgmjdn6d/image/upload/v1741636577/qwwif44ekh3wpgsq13wa.png" alt="img" className="w-full mx-auto" />
                         </div>
                         <div className="max-md:text-center">
-                            <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6">Write Smarter, Not Harder, Unlock Your Writing Potential with AI</h2>
+                            <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6 animate-fadeInUp">Write Smarter, Not Harder, Unlock Your Writing Potential with AI</h2>
                             <p className="text-gray-400">Enhance your writing process with our integrated AI. Generate ideas, refine content, and optimize your blog posts for maximum impact. Ditch the struggle, embrace the future of writing. Our AI makes blogging smarter, faster, and more enjoyable.</p>
                             <button type="button"
-                                className="px-6 py-3.5 border-t border-b-2 mt-10 border-red-600 shadow-sm shadow-red-600 hover:bg-red-600 font-semibold rounded-lg ">
+                                className="px-6 py-3.5 border-t border-b-2 mt-10 border-red-600 shadow-sm shadow-red-600 hover:bg-red-600 font-semibold rounded-lg animate-fadeInUp ">
                                 Comming soon...
                             </button>
                         </div>
@@ -117,15 +117,15 @@ function Home() {
                 <div className="mt-32 px-4 py-12 shadow-xl shadow-pink-500/50 rounded-lg">
                     <div className="grid md:grid-cols-2 justify-center items-center gap-12 max-w-7xl mx-auto">
                         <div className="max-md:text-center">
-                            <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6">Write Globally, Connect Deeply, Unleash Your Words on the World</h2>
+                            <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6 animate-fadeInUp">Write Globally, Connect Deeply, Unleash Your Words on the World</h2>
                             <p className="text-gray-400">Connect with a global audience of passionate readers. Share your stories, insights, and ideas with people from all corners of the world. Join a diverse community of writers and readers from across the globe. Share your unique perspective, learn from others, and build connections that transcend borders.</p>
                             <button onClick={() => navigate("/all-blogs")} type="button"
-                                className="px-6 py-3.5 border-t border-b-2 border-red-600 shadow-sm shadow-red-600 hover:bg-red-600 font-semibold rounded-lg mt-10">
+                                className="px-6 py-3.5 border-t border-b-2 border-red-600 shadow-sm shadow-red-600 hover:bg-red-600 font-semibold rounded-lg mt-10 animate-fadeInUp">
                                 Try it today
                             </button>
                         </div>
                         <div>
-                            <img src="https://wepik.com/api/image/local/155932983/9e5fb26f-5465-407f-81a6-a160df40c269?expires=1741406400&thumb=0&transparent=0&signature=c9699336411f455f94315182fb0e71af4ddcd5c75e0bdb63285d4929d57f2d80" alt="Premium Benefits" className="w-full mx-auto " />
+                            <img src="https://res.cloudinary.com/djgmjdn6d/image/upload/v1741636575/dpdw0qipiwacjsqi68jz.png" alt="Premium Benefits" className="w-full mx-auto " />
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ function Home() {
 
                 <div className="mt-32 max-w-7xl mx-auto ">
                     <div className="mb-16 max-w-2xl text-center mx-auto">
-                        <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6">User's feedback</h2>
+                        <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6 animate-fadeInUp">User's feedback</h2>
                         <p className="text-gray-400">Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia ea sit
                             deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut reprehenderit.</p>
                     </div>
@@ -144,12 +144,12 @@ function Home() {
                                 <img src="https://readymadeui.com/profile_2.webp"
                                     className="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
                                 <div className="mt-4">
-                                    <h4 className="text-base">John Doe</h4>
+                                    <h4 className="text-base animate-fadeInUp">John Doe</h4>
                                     <p className="text-xs text-red-600 mt-2">Working Professional</p>
                                 </div>
                             </div>
                             <div className="mt-6">
-                                <p className="text-gray-400">As a busy professional, I don't have a lot of time to write. But this platform makes it so easy! The AI tools help me create high-quality content quickly, and I've seen a significant increase in engagement on my blog since I started using it.</p>
+                                <p className="text-gray-400 animate-fadeInUp">As a busy professional, I don't have a lot of time to write. But this platform makes it so easy! The AI tools help me create high-quality content quickly, and I've seen a significant increase in engagement on my blog since I started using it.</p>
                             </div>
                             <div className="flex justify-center space-x-2 mt-4">
                                 <FaStar className="text-red-600" />
@@ -164,12 +164,12 @@ function Home() {
                                 <img src="https://readymadeui.com/profile_3.webp"
                                     className="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
                                 <div className="mt-4">
-                                    <h4 className="text-base">Mark Adair</h4>
+                                    <h4 className="text-base animate-fadeInUp">Mark Adair</h4>
                                     <p className="text-xs text-red-600 mt-2">Student</p>
                                 </div>
                             </div>
                             <div className="mt-6">
-                                <p className="text-gray-400">I love how easy it is to use this platform to create and share blog posts. It's helped me connect with other students who share my interests, and the feedback I've received has been invaluable.</p>
+                                <p className="text-gray-400 animate-fadeInUp">I love how easy it is to use this platform to create and share blog posts. It's helped me connect with other students who share my interests, and the feedback I've received has been invaluable.</p>
                             </div>
                             <div className="flex justify-center space-x-2 mt-4">
                                 <FaStar className="text-red-600" />
@@ -184,12 +184,12 @@ function Home() {
                                 <img src="https://readymadeui.com/profile_4.webp"
                                     className="w-24 h-24 rounded-full shadow-xl border-2 border-white" />
                                 <div className="mt-4">
-                                    <h4 className="text-base">Simon Konecki</h4>
+                                    <h4 className="text-base animate-fadeInUp">Simon Konecki</h4>
                                     <p className="text-xs text-red-600 mt-2">Student</p>
                                 </div>
                             </div>
                             <div className="mt-6">
-                                <p className="text-gray-400">This platform has been a game-changer for me! As a student, it's helped me improve my writing skills and share my thoughts with a wider audience. The AI tools are super helpful for generating ideas and overcoming writer's block.</p>
+                                <p className="text-gray-400 animate-fadeInUp">This platform has been a game-changer for me! As a student, it's helped me improve my writing skills and share my thoughts with a wider audience. The AI tools are super helpful for generating ideas and overcoming writer's block.</p>
                             </div>
                             <div className="flex justify-center space-x-2 mt-4">
                                 <FaStar className="text-red-600" />
@@ -205,26 +205,26 @@ function Home() {
 
                 <div className="mt-32">
                     <div className="mb-16 max-w-2xl text-center mx-auto">
-                        <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6">Application Metrics</h2>
+                        <h2 className="md:text-4xl text-3xl font-semibold md:!leading-[50px] mb-6 animate-fadeInUp">Application Metrics</h2>
                         <p className="text-gray-400">To highlight the platform's success, to attract new users, to build trust, etc.</p>
                     </div>
                     <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-12">
-                        <div className="text-center shadow-xl shadow-blue-500/50 rounded-lg py-5">
+                        <div className="text-center shadow-xl shadow-blue-500/50 rounded-lg py-5 animate-fadeInUp">
                             <FaBookOpenReader className="mx-auto w-9 h-9 " />
                             <h3 className="text-4xl  mt-6">400+</h3>
                             <p className="mt-4">Unique Readers</p>
                         </div>
-                        <div className="text-center shadow-xl shadow-pink-500/50 rounded-lg py-5">
+                        <div className="text-center shadow-xl shadow-pink-500/50 rounded-lg py-5 animate-fadeInUp">
                             <FaNewspaper className="mx-auto w-9 h-9" />
                             <h3 className="text-4xl mt-6">1000+</h3>
                             <p className="mt-4">Total Blogs</p>
                         </div>
-                        <div className="text-center shadow-xl shadow-green-500/50 rounded-lg py-5">
+                        <div className="text-center shadow-xl shadow-green-500/50 rounded-lg py-5 animate-fadeInUp">
                             <FaRegGrinStars className="mx-auto w-9 h-9" />
                             <h3 className="text-4xl mt-6">100+</h3>
                             <p className="mt-4">Active Contributors</p>
                         </div>
-                        <div className="text-center shadow-xl shadow-red-500/50 rounded-lg py-5">
+                        <div className="text-center shadow-xl shadow-red-500/50 rounded-lg py-5 animate-fadeInUp">
                             <PiFilesFill className="mx-auto w-9 h-9" />
                             <h3 className="text-4xl mt-6">100+</h3>
                             <p className="mt-4">Topics</p>
