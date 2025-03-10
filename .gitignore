@@ -11,9 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-env
-.env
-*.env
+
 
 # Editor directories and files
 .vscode/*
@@ -26,6 +24,10 @@ env
 *.sln
 *.sw?
 dist
+
+env
+.env
+*.env
 
 # Logs
 logs
