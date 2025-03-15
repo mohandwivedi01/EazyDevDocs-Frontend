@@ -32,14 +32,14 @@ function Card({card, likeCourses, setLikeCourses}){
     
     return (
         <div className=" bg-slate-800 border border-slate-500 rounded-lg text-white animate-fadeInUp">
-            <Link to="#">
+            <Link to="">
                 <img className="w-sm h-[190px] mx-auto rounded-t-lg" src={card.image_url} alt="card image"/>
             </Link>
             <div className="pb-5 pt-1 px-3">
-                <Link to="#">
+                <Link to="">
                     <h5 className="mb-2 text-md font-semibold tracking-tight ">{limitWords(card.title, 6)}</h5>
                 </Link>
-                <div className="mb-2 font-normal text-slate-300 text-sm " dangerouslySetInnerHTML={{ __html: limitWords(card.content, 20) }} />
+                <div className="h-[75px] md:h-[100px]  mb-2 font-normal text-slate-300 text-xs md:text-sm" dangerouslySetInnerHTML={{ __html: limitWords(card.content, 20) }} />
                 {/* <p className="mb-2 font-normal text-slate-300 text-sm ">{limitWords(card.content, 20)}</p> */}
                 <div className="flex justify-between">
                     <button onClick={goToBlogHandler} className="border-t border-b-2 border-red-600 shadow-sm shadow-red-500 hover:bg-red-600 font-semibold px-2 rounded-lg">Open Blog</button>

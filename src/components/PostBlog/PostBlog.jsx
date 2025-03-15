@@ -15,12 +15,7 @@ function PostBlog(props) {
         image: props.image || null,
         category: props.category ||""
     });
-    const [loading, setLoading] = useState(true)
-
-    useEffect(() => {
-        setLoading(false)
-    }, [])
-
+    const [loading, setLoading] = useState()
 
     const postHandler = async (e) => {
         e.preventDefault();

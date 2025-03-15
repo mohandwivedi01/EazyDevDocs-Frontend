@@ -19,10 +19,12 @@ function Login() {
         setLoading(true);
         if(!username){
             toast.error("Username is required");
+            setLoading(false);
             return;
         }
         if(!password){
             toast.error("Password is required");
+            setLoading(false);
             return;
         }
         try {

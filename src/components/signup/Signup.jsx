@@ -22,10 +22,12 @@ function Signup() {
         const role = ["USER"]
         if(!username){
             toast.error("Username is required");
+            setLoading(false);
             return;
         }
         if(password!== confirmPass){
             toast.error("Passwords do not match");
+            setLoading(false);
             return;
         }
         try {

@@ -14,9 +14,6 @@ function AllBlogs(props) {
     const [blogData, setBlogData] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    
-
-
     useEffect(() => {
         const fetchData = async () => {
             try {
