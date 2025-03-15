@@ -13,6 +13,7 @@ import Signup from './components/signup/Signup.jsx'
 import PostBlog from './components/PostBlog/PostBlog.jsx'
 import Home from './components/home/Home.jsx'
 import AllBlogs from './components/AllBlogs/AllBlogs.jsx'
+import Contact from './components/contactForm/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,12 @@ const router = createBrowserRouter([
           <AuthLayout authentication={true}>
             <PostBlog />
           </AuthLayout>
+        )
+      },
+      {
+        path: "/contact",
+        element: (
+          <Contact />
         )
       },
       

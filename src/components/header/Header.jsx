@@ -30,7 +30,7 @@ function Header() {
 
     const logOutHandler = () => {
         if (isAuthenticated) {
-            console.log("logging out")
+            // console.log("logging out")
             auth.logoutService(dispatch);
             toast.info("User logged out successfully!")
             navigate("/");
@@ -58,7 +58,7 @@ function Header() {
                                     <Link to="/" className="block font-semibold hover:text-red-500 md:p-0">About</Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="block font-semibold hover:text-red-500 md:p-0">Contact</Link>
+                                    <Link to="/contact" className="block font-semibold hover:text-red-500 md:p-0">Contact</Link>
                                 </li>
                                 {isAuthenticated && <li>
                                     <Link to="/all-blogs" className={`$ font-semibold hover:text-red-500 md:p-0`}>All Blogs</Link>
